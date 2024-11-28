@@ -4,7 +4,7 @@ export default function Home() {
   return (
     <main>
       <section>
-        <div className="container mx-auto">
+        <div className="container mx-auto lg:h-[300rem] ">
           <div className="text-center uppercase lg:mt-[15rem]">
             <h2 className="lg:text-6xl font-bold italic">web developer</h2>
             <p className="relative lg:text-lg underline underline-offset-[0.5rem] lg:my-3">
