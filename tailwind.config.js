@@ -6,11 +6,15 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      ralewayFt: ['"Raleway", sans-serif'],
+      robotoFt: ['"Roboto", serif'],
+    },
     extend: {
       colors: {
-        mainBg: '#F0F3E5',
-        skyblue: '#9EFCF1',
-  			darkBlue: '#00364B',
+        mainBg: "#F0F3E5",
+        skyblue: "#9EFCF1",
+        darkBlue: "#1E1E1E",
       },
     },
   },

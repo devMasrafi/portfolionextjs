@@ -1,3 +1,4 @@
+import ProjectPage from "@/components/project";
 import SocialHandel from "@/components/socialHandel";
 
 export default function Home() {
@@ -90,6 +91,13 @@ export default function Home() {
             </div>
           </div>
         </div>
+      </section>
+
+
+      {/* projects */}
+
+      <section>
+        <ProjectPage/>
       </section>
     </main>
   );
