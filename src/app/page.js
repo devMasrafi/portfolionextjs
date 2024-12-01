@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import ProjectPage from "@/components/project";
 import SocialHandel from "@/components/socialHandel";
 
@@ -99,6 +100,11 @@ export default function Home() {
       <section>
         <ProjectPage/>
       </section>
+
+
+
+      {/* footer */}
+      <Footer/>
     </main>
   );
 }

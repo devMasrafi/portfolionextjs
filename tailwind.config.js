@@ -14,7 +14,7 @@ module.exports = {
       colors: {
         mainBg: "#F0F3E5",
         skyblue: "#9EFCF1",
-        darkBlue: "#1E1E1E",
+        darkBlue: "#00171F",
       },
     },
   },
