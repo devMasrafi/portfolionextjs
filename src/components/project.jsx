@@ -1,3 +1,6 @@
+import MultiProjectInfo from "./MultiprojectInfo";
+
+
 const ProjectPage = () => {
   const proiject1 = [
     {
@@ -77,8 +80,8 @@ const ProjectPage = () => {
           </div>
 
           {/* 2nd projects */}
-          <section>
-            
+          <section className="lg:mt-[3rem] ">
+            <MultiProjectInfo/>
           </section>
         </div>
       </section>
