@@ -6,6 +6,11 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    screens: {
+      'sm': '320px',
+      'md': '768px',
+      'lg': '1380px',
+    },
     fontFamily: {
       ralewayFt: ['"Raleway", sans-serif'],
       robotoFt: ['"Roboto", serif'],
