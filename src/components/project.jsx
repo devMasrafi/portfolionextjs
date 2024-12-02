@@ -1,4 +1,4 @@
-import MultiProjectInfo from "./MultiprojectInfo";
+import MultiProjectInfo from "@/components/MultiprojectInfo";
 
 
 const ProjectPage = () => {
