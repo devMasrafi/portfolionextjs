@@ -64,7 +64,7 @@ const MultiProjectInfo = () => {
   ];
   //   console.log(multiPojectArr);
   return (
-    <main className="bg-darkBlue">
+    <main>
       <section className="container mx-auto text-white">
         <div className="flex flex-wrap justify-evenly   ">
           {multiPojectArr.map((projects, index) => {

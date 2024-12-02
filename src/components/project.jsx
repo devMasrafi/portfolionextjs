@@ -1,5 +1,4 @@
-import MultiProjectInfo from "@/components/MultiprojectInfo";
-
+// import MultiProjectInfo from "@/components/MultiprojectInfo";
 
 const ProjectPage = () => {
   const proiject1 = [
@@ -61,7 +60,9 @@ const ProjectPage = () => {
                   <h2 className="lg:text-7xl capitalize font-ralewayFt font-semibold">
                     {proiject1[0].titile}
                   </h2>
-                  <p className="font-ralewayFt tracking-wider opacity-70 lg:pt-[1rem] lg:w-[30rem] ">{proiject1[0].details}</p>
+                  <p className="font-ralewayFt tracking-wider opacity-70 lg:pt-[1rem] lg:w-[30rem] ">
+                    {proiject1[0].details}
+                  </p>
                 </div>
                 <div className=" flex flex-wrap lg:gap-x-2 lg:gap-y-2 justify-end lg:w-[16rem] ">
                   {proiject1[0].techused.map((items) => {
@@ -70,7 +71,9 @@ const ProjectPage = () => {
                         className="border border-1 border-white lg:px-4 lg:py-2 lg:rounded-md"
                         key={items.techId}
                       >
-                        <p className="capitalize tracking-wider font-ralewayFt lg:text-sm">{items.tech}</p>
+                        <p className="capitalize tracking-wider font-ralewayFt lg:text-sm">
+                          {items.tech}
+                        </p>
                       </div>
                     );
                   })}
@@ -78,11 +81,7 @@ const ProjectPage = () => {
               </div>
             </div>
           </div>
-
-          {/* 2nd projects */}
-          <section className="lg:mt-[3rem] ">
-            <MultiProjectInfo/>
-          </section>
+          
         </div>
       </section>
     </main>

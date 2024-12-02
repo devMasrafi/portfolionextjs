@@ -1,4 +1,5 @@
 import Footer from "@/components/Footer";
+import MultiProjectInfo from "@/components/MultiprojectInfo";
 import ProjectPage from "@/components/project";
 import SocialHandel from "@/components/socialHandel";
 
@@ -12,7 +13,6 @@ export default function Home() {
     { skillName: "JavaScript" },
     { skillName: "Figma" },
   ];
-
 
   return (
     <main>
@@ -57,7 +57,10 @@ export default function Home() {
                     <span className="text-orange-400"> web designer</span> and
                     <span className="text-orange-500"> developer</span>, and I
                     code vanilla
-                    <span className="text-orange-300"> &#40;most of my time&#41;</span>
+                    <span className="text-orange-300">
+                      {" "}
+                      &#40;most of my time&#41;
+                    </span>
                   </h2>
                 </div>
               </div>
@@ -94,17 +97,17 @@ export default function Home() {
         </div>
       </section>
 
-
       {/* projects */}
 
       <section>
-        <ProjectPage/>
+        <ProjectPage />
+        <div className="lg:pt-[3rem] bg-darkBlue ">
+          <MultiProjectInfo />
+        </div>
       </section>
 
-
-
       {/* footer */}
-      <Footer/>
+      <Footer />
     </main>
   );
 }
